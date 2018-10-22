@@ -1,7 +1,7 @@
 ﻿// Developed by Softeq Development Corporation
 // http://www.softeq.com
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     /// <summary>
     /// Represents configured event that can be written to log.

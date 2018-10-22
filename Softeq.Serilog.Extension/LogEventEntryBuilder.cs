@@ -4,8 +4,9 @@
 using System;
 using Serilog;
 using Serilog.Events;
+using Softeq.Serilog.Extension;
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     public struct LogEventEntryBuilder : IWritableEventWithParameters, IParameterizableEvent
     {

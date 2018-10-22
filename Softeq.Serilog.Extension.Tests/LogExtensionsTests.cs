@@ -7,9 +7,10 @@ using System.Linq;
 using FluentAssertions;
 using Serilog;
 using Serilog.Events;
+using Softeq.Serilog.Extension;
 using Xunit;
 
-namespace Softeq.NoName.Common.Logging.Tests
+namespace Softeq.Serilog.Extension.Tests
 {
     public class LogExtensionsTests
     {

@@ -2,8 +2,9 @@
 // http://www.softeq.com
 
 using Serilog;
+using Softeq.Serilog.Extension;
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     public static class LoggerExtensions
     {

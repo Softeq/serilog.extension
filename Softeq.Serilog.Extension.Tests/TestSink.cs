@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Serilog.Core;
 using Serilog.Events;
 
-namespace Softeq.NoName.Common.Logging.Tests
+namespace Softeq.Serilog.Extension.Tests
 {
     public class TestSink : ILogEventSink
     {

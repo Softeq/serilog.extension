@@ -3,7 +3,7 @@
 
 using Serilog.Formatting.Display;
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     /// <summary>
     /// Commonly used log event placeholders for structured logging.

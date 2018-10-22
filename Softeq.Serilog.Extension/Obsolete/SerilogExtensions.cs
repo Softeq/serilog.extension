@@ -3,9 +3,8 @@
 
 using System;
 using Serilog;
-using Softeq.NoName.Common.Logging;
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     public static class LogExtensions
     {

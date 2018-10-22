@@ -1,6 +1,6 @@
 # Serilog extention
 
-netstandard exntetions for Serilog
+Extension for Serilog
 
 ## About
 
@@ -14,4 +14,4 @@ We welcome any contributions.
 
 ## License
 
-The Serilog extention project is available for free use, as described by the [LICENSE](/LICENSE) (MIT).
+The Serilog extension project is available for free use, as described by the [LICENSE](/LICENSE) (MIT).

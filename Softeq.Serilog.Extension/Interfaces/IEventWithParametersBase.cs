@@ -2,9 +2,8 @@
 // http://www.softeq.com
 
 using System;
-using Softeq.NoName.Common.Logging;
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     /// <summary>
     /// Represents not configured event that canot be written to log.

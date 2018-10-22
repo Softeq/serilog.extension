@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>Softeq.Serilog.Extension.Tests</AssemblyName>
+
+    <RootNamespace>Softeq.Serilog.Extension.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Softeq.NoName.Common.Logging\Softeq.NoName.Common.Logging.csproj" />
+    <ProjectReference Include="..\Softeq.Serilog.Extension\Softeq.Serilog.Extension.csproj" />
   </ItemGroup>
 
 </Project>

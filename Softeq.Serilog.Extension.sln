@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softeq.NoName.Common.Logging", "Softeq.NoName.Common.Logging\Softeq.NoName.Common.Logging.csproj", "{5446E6C5-223F-431C-BE65-D8F972187B77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softeq.Serilog.Extension", "Softeq.Serilog.Extension\Softeq.Serilog.Extension.csproj", "{5446E6C5-223F-431C-BE65-D8F972187B77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softeq.NoName.Common.Logging.Tests", "Softeq.NoName.Common.Logging.Tests\Softeq.NoName.Common.Logging.Tests.csproj", "{1FF7F7BA-5446-4FF6-AA9C-876EFA68F3A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softeq.Serilog.Extension.Tests", "Softeq.Serilog.Extension.Tests\Softeq.Serilog.Extension.Tests.csproj", "{1FF7F7BA-5446-4FF6-AA9C-876EFA68F3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

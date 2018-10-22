@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <Description></Description>
+    <Authors>Softeq Development Corp.</Authors>
+    <Company>Softeq Development Corp.</Company>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <PackageId>Softeq.Serilog.Extension</PackageId>
+    <Product>Softeq.Serilog.Extension</Product>
+    <PackageProjectUrl>https://github.com/Softeq/serilog.extension</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Softeq/serilog.extension/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.7.1" />
+  </ItemGroup>
+
+</Project>

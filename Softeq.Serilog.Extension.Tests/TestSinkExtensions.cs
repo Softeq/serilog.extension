@@ -6,7 +6,7 @@ using Serilog;
 using Serilog.Configuration;
 using Serilog.Events;
 
-namespace Softeq.NoName.Common.Logging.Tests
+namespace Softeq.Serilog.Extension.Tests
 {
     public static class TestSinkExtensions
     {

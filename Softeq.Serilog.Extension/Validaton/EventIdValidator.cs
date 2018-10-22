@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Softeq.NoName.Common.Logging
+namespace Softeq.Serilog.Extension
 {
     /// <summary>
     /// Performs validation of event id.
