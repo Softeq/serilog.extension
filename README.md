@@ -17,26 +17,26 @@ Handle exception in middleware:
 2. Log fatal
 ```csharp
             _logger.Event("UnhandledExceptionCaughtByMiddleware")
-                .With.Exception(ex)
-                .Message("Exception was caught by exception handling middleware. Status code = {StatusCode}; error code = {ErrorCode}", statusCode, errorCode)
-                .AsFatal();
+				   .With.Exception(ex)
+				   .Message("Exception was caught by exception handling middleware. Status code = {StatusCode}; error code = {ErrorCode}", statusCode, errorCode)
+				   .AsFatal();
 ```
 3. Log information
 ```csharp
           _logger.Event("MethodWasInvoked") 
-		  	  .With.Message("Method was invoked")
-                .AsInformation();
+				 .With.Message("Method was invoked")
+                 .AsInformation();
 ```
 4. Log debug
 ```csharp
-           _logger.Event("ConfigurationFileWasParsed")
-                .With.Message("Configuration file was parsed")
-                .AsDebug();
+           _logger.Event("MethodWasInvoked")
+				  .With.Message("Method was invoked")
+                  .AsDebug();
 ````
 
 ## Configuration
 
-Serilog section in  **appsettings.json**
+Serilog section in **appsettings.json**
 
 ```json
 "Serilog": {
