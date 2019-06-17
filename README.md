@@ -3,13 +3,12 @@
 
 # Serilog extention
 
-Netstandard exntetions for Serilog. Use to collect logs and to monitor application.
+.NET Standard 2.0 extensions for Serilog. Use to collect logs and to monitor application.
 
 ## Usage
 Handle exception in middleware:
 1. Log error
 ```csharp
-
             _logger.Event("UnhandledExceptionCaughtByMiddleware")
                    .With.Exception(ex)
                    .Message("Exception was caught by exception handling middleware. Status code = {StatusCode}; error code = {ErrorCode}", statusCode, errorCode)
@@ -24,20 +23,20 @@ Handle exception in middleware:
 ```
 3. Log information
 ```csharp
-          _logger.Event("Information")
-                .With.Message(" Status code = {StatusCode}; error code = {ErrorCode}", statusCode, errorCode)
+          _logger.Event("MethodWasInvoked") 
+		  	  .With.Message("Method was invoked")
                 .AsInformation();
 ```
 4. Log debug
 ```csharp
-           _logger.Event("Debug information")
-                .With.Message("{StatusCode}; error code = {ErrorCode}", statusCode, errorCode)
+           _logger.Event("ConfigurationFileWasParsed")
+                .With.Message("Configuration file was parsed")
                 .AsDebug();
 ````
 
 ## Configuration
 
-Serilog section in appsettings.json
+Serilog section in  **appsettings.json**
 
 ```json
 "Serilog": {
